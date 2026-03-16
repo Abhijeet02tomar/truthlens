@@ -104,7 +104,7 @@ export default function Home() {
             </div>
           )}
 
-          {result && !isProcessing && (
+          {result && !isProcessing && file && (
             <ResultDashboard result={result} file={file} onReset={reset} />
           )}
         </div>
