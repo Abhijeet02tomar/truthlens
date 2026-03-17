@@ -58,7 +58,7 @@ export default function Navigation({ activeSection, onNavigate, scanCount }: Nav
             </div>
             <div className="flex flex-col">
               <span className="text-lg sm:text-xl font-bold text-[var(--color-foreground)]">
-                TruthLens
+                HuntAI
               </span>
               <span className="text-[10px] sm:text-xs text-[var(--color-muted)] -mt-1">
                 AI Deepfake Detector
@@ -92,7 +92,7 @@ export default function Navigation({ activeSection, onNavigate, scanCount }: Nav
           {/* CTA Button */}
           <div className="hidden md:flex items-center gap-3">
             <a
-              href="https://github.com/Abhijeet02tomar/truthlens"
+              href="https://github.com/Abhijeet02tomar/huntai"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-3 py-2 text-sm text-[var(--color-muted)] hover:text-[var(--color-foreground)] transition-colors"

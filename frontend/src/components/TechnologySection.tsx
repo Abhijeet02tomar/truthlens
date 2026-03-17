@@ -69,7 +69,7 @@ export default function TechnologySection() {
             Built With Modern Technology
           </h2>
           <p className="text-lg text-[var(--color-muted)] max-w-2xl mx-auto text-pretty">
-            TruthLens leverages cutting-edge AI models and modern web technologies to deliver fast, accurate, and reliable deepfake detection.
+            HuntAI leverages cutting-edge AI models and modern web technologies to deliver fast, accurate, and reliable deepfake detection.
           </p>
         </div>
 

@@ -64,7 +64,7 @@ export default function FeaturesSection() {
             Advanced Detection Capabilities
           </h2>
           <p className="text-lg text-[var(--color-muted)] max-w-2xl mx-auto text-pretty">
-            Powered by state-of-the-art AI models, TruthLens provides comprehensive media verification with detailed analysis and reporting.
+            Powered by state-of-the-art AI models, HuntAI provides comprehensive media verification with detailed analysis and reporting.
           </p>
         </div>
 

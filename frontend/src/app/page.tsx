@@ -49,7 +49,7 @@ export default function Home() {
 
   // Load scan history from localStorage on mount
   useEffect(() => {
-    const saved = localStorage.getItem("truthlens-scan-history");
+    const saved = localStorage.getItem("huntai-scan-history");
     if (saved) {
       try {
         const parsed = JSON.parse(saved);
@@ -63,7 +63,7 @@ export default function Home() {
   // Save scan history to localStorage
   useEffect(() => {
     if (scanHistory.length > 0) {
-      localStorage.setItem("truthlens-scan-history", JSON.stringify(scanHistory));
+      localStorage.setItem("huntai-scan-history", JSON.stringify(scanHistory));
     }
   }, [scanHistory]);
 
@@ -165,7 +165,7 @@ export default function Home() {
 
   const clearHistory = () => {
     setScanHistory([]);
-    localStorage.removeItem("truthlens-scan-history");
+    localStorage.removeItem("huntai-scan-history");
   };
 
   return (
@@ -312,7 +312,7 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row items-center justify-between gap-6">
             <div className="flex items-center gap-3">
               <ShieldCheck className="w-6 h-6 text-[var(--color-primary)]" />
-              <span className="text-[var(--color-foreground)] font-semibold">TruthLens</span>
+              <span className="text-[var(--color-foreground)] font-semibold">HuntAI</span>
             </div>
             <p className="text-sm text-[var(--color-muted)]">
               Enterprise AI Deepfake Detection. Powered by NVIDIA Vision AI.
