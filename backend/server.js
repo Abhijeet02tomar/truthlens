@@ -22,5 +22,5 @@ app.use('/detect', detectRoutes);
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
-  console.log(`TruthLens Backend Server running on port ${PORT}`);
+  console.log(`HuntAI Backend Server running on port ${PORT}`);
 });
